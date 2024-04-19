@@ -1,0 +1,29 @@
+*{
+    font-family: "Quicksand" !important;
+}
+
+.card{
+    width: 300px;
+    height: 400px;
+    border-radius: 0px;
+    border: none !important;
+    transition: 500ms;
+}
+
+.bg-overlay{
+    background-color: rgba(0, 0, 0, 0.652);
+}
+
+.card-body{
+    padding: 0px !important;
+}
+
+.cards-collection:hover .card{
+    filter: blur(5px);
+    transform: scale(.8);
+}
+
+.card:hover{
+    filter: blur(0px) !important;
+    transform: scale(1) !important;
+}
